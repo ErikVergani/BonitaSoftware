@@ -7,4 +7,4 @@ dependency-reduced-pom.xml
 pom.xml.versionsBackup
 node/
 node_modules/
-app/h2_database/
+app/h2_database/*
