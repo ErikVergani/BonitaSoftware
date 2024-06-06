@@ -1,0 +1,6 @@
+#FileLock
+#Thu Jun 06 20:06:32 BRT 2024
+server=192.168.56.1\:65052
+hostName=LAB17-28-WIN.acad.univates
+method=file
+id=18fefcdb73342b6f1a5ed7d878faaeb218562eb34b2
