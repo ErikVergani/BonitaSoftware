@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.univates.bs.model.Db">
+            <fields>
+                <field type="LOCALDATE" length="255" name="dt_start" nullable="false" collection="false"/>
+                <field type="LOCALDATE" length="255" name="dt_end" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="co_obs" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="co_balance_days" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="substitute_user_email" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="dh_aprovated" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="dh_obs" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="fi_obs" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="fi_payment_value" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="fi_payed" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="li_aproved" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="li_obs" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="fi_signature" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="co_signature" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="dt_aproved" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
